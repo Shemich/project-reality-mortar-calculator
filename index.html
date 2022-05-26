@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="scripts/script.js"></script>
+</head>
+<body>
+
+	<nav>
+		<button onclick="changeMap('al-basrah'		, '100')">Al Basrah</button>
+		<button onclick="changeMap('assault-on-grozny'			, '300')">Assault On Grozny</button>
+	</nav>
+
+	<img	id="currentMap"
+			src="images/maps/al-basrah.png">
+
+	<img id="mortar" src="images/assets/mortar.png">
+	<img id="target" src="images/assets/target.png">
+
+	<section>
+		<h1>Расстояние:</h1><input type="text" id="form_distance" size="4">
+		<h1>Азимут:</h1><input type="text" id="form_deg" size="4">
+		<h1>Угол места:</h1><input type="text" id="form_mil" size="4">
+	</section>
+</body>
+</html>

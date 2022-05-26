@@ -1,0 +1,107 @@
+body
+{
+	background-color: black;
+	display: block;
+	margin: 0 auto;
+}
+nav
+{
+	/*border: 1px solid white;*/
+	float: left;
+	height: 550px;
+	overflow: hidden;
+	position: absolute;
+	width: 200px;
+	z-index: 2;
+}
+	nav button
+	{
+		background-color: black;
+		border: 1px solid white;
+		border-bottom: none;
+		color: white;
+		display: block;
+		font-size: 1.5em;
+		padding: 10px;
+		text-decoration: none;
+		width: 100%;
+	}
+	nav button:last-child
+	{
+		border-bottom: 1px solid white;
+	}
+	nav button:hover
+	{
+		background-color: orange;
+		color: black;
+		cursor: pointer;
+	}
+	nav button:focus
+	{
+		outline: none;
+	}
+#currentMap
+{
+	display: block;
+	right: 30%;
+	margin: 0 auto;
+	max-height: 100%;
+	max-width: 80%;
+	position: absolute;
+	z-index: 1;
+}
+#mortar
+{
+	display: block;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	transform: translate(-50%,-50%);
+	visibility: hidden;
+	width: 20px;
+	z-index: 2;
+}
+#target
+{
+	display: block;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	transform: translate(-50%,-50%);
+	visibility: hidden;
+	width: 32px;
+	z-index: 2;
+}
+section
+{
+	background-color: black;
+	border: 1px solid white;
+	left: 0;
+	padding: 10px 0;
+	position: absolute;
+	top: 560px;
+	width: 200px;
+	z-index: 3;
+}
+	section h1
+	{
+		color: white;
+		padding: 2px 0;
+		font-size: 2em;
+		text-align: center;
+		width: 100%;
+	}
+	section input
+	{
+		display: block;
+		font-size: 2em;
+		margin: 0 auto;
+		text-align: right;
+		width: 90%;
+	}
+p
+{
+	color: red;
+	position: absolute;
+	top: 70%;
+}
